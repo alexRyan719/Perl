@@ -1,5 +1,15 @@
 #!/bin/perl
 
+# [after slicing one of the Black Knight's arms off]
+# King Arthur: Now stand aside, worthy adversary!
+# Black Knight: 'Tis but a scratch!
+# King Arthur: A scratch? Your arm's off!
+# Black Knight: No, it isn't.
+# King Arthur: What's that, then?
+# Black Knight: [after a pause] I've had worse.
+# King Arthur: You liar!
+# Black Knight: Come on, you pansy!
+
 use strict;
 use warnings;
 use Digest::MD5 qw(md5_hex);
