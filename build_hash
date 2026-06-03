@@ -1,0 +1,19 @@
+#!/bin/perl
+
+use strict;
+use warnings;
+use Digest::MD5 qw(md5_hex);
+
+my $filename = "names.txt"
+my $hashed_id = "";
+
+open(my $fh, '<', $filename) or die "Could not open '$filename' $!;
+
+while (my $line = <$fh>) {
+    chomp $line;
+    print "Read: $line\n";
+    $hashed_id = md5_hex($line); 
+    print "The hash is: $hashed_id\n";
+}
+
+close($fh);
