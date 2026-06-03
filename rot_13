@@ -1,0 +1,48 @@
+#!/bin/perl
+
+# Bridgekeeper: Stop. Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.
+# Sir Lancelot: Ask me the questions, bridgekeeper. I am not afraid.
+# Bridgekeeper: What... is your name?
+# Sir Lancelot: My name is Sir Lancelot of Camelot.
+# Bridgekeeper: What... is your quest?
+# Sir Lancelot: To seek the Holy Grail.
+# Bridgekeeper: What... is your favourite colour?
+# Sir Lancelot: Blue.
+# Bridgekeeper: Go on. Off you go.
+# Sir Lancelot: Oh, thank you. Thank you very much.
+# Sir Robin: That's easy.
+# Bridgekeeper: Stop. Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.
+# Sir Robin: Ask me the questions, bridgekeeper. I'm not afraid.
+# Bridgekeeper: What... is your name?
+# Sir Robin: Sir Robin of Camelot.
+# Bridgekeeper: What... is your quest?
+# Sir Robin: To seek the Holy Grail.
+# Bridgekeeper: What... is the capital of Assyria?
+# [pause]
+# Sir Robin: I don't know that.
+# [he is thrown over the edge into the volcano]
+# Sir Robin: Auuuuuuuugh.
+# Bridgekeeper: Stop. What... is your name?
+# Galahad: Sir Galahad of Camelot.
+# Bridgekeeper: What... is your quest?
+# Galahad: I seek the Grail.
+# Bridgekeeper: What... is your favourite colour?
+# Galahad: Blue. No, yel...
+# [he is also thrown over the edge]
+# Galahad: auuuuuuuugh.
+# Bridgekeeper: Hee hee heh. Stop. What... is your name?
+# King Arthur: It is 'Arthur', King of the Britons.
+# Bridgekeeper: What... is your quest?
+# King Arthur: To seek the Holy Grail.
+# Bridgekeeper: What... is the air-speed velocity of an unladen swallow?
+# King Arthur: What do you mean? An African or European swallow?
+# Bridgekeeper: Huh? I... I don't know that.
+# [he is thrown over]
+# Bridgekeeper: Auuuuuuuugh.
+# Sir Bedevere: How do know so much about swallows?
+# King Arthur: Well, you have to know these things when you're a king, you know.
+
+@letters = ("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", 
+    "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z");
+
+print ${letters[0]};
